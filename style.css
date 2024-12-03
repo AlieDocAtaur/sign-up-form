@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    font-size: 18px;
+}
+input, button{
+    width: 200px;
+    border: 2px solid rgb(139, 135, 135);
+}
+.container-1{
+    width: 40vw;
+    color: aliceblue;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    background-image: url(./photo-1.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    width: 17rem;
+    height: 17rem;
+}
+.logo-text{
+    font-size: 5rem;
+}
+.credit{
+    font-size: larger;
+    padding-bottom: 16px;
+}
+
+
+
+.container-2{
+    height: 100vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #eeececb4;
+}
+
+
+.text-container{
+    font-size: 48px;
+    margin-top: 145px;
+    margin-left: 50px;
+    height: 33%;
+}
+.text-container div{
+    margin-top: 72px;
+}
+form{
+    height: 33%;
+    font-size: 36px;
+    background-color: #fff;
+    box-shadow: 0 4px 2px -2px gray;
+}
+fieldset{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    padding: 32px;
+}
+form p{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-bottom: 12px;
+}
+fieldset input{
+    font-size: 48px;
+    font-weight: lighter;
+    width: 80%;
+    border-radius: 15px;
+    padding: 8px;
+}
+input:focus{
+    border: 2px green solid;
+}
+input:invalid{
+    border: 5px red solid;
+}
+
+
+
+
+
+
+
+
